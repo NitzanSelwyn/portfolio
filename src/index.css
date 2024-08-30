@@ -3,11 +3,79 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  /* background-color: #282c34; */
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+section {
+  width: 50wv
+}
+
+span {
+  font-size: 1rem;
+  color: black !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-dir-col {
+  flex-direction: column;
+}
+
+.flex-dir-row {
+  flex-direction: row;
+}
+
+.justify-con-sb {
+  justify-content: space-between;
+}
+
+.justify-con-center {
+  justify-content: center;
+}
+
+
+.item-center {
+  align-items: center;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-6{
+  width: 1.5rem;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.size-50 {
+  width: 50vw;
+}
+
+.size-30 {
+  width: 30vw;
+}
+
+.col-gap-7 {
+  column-gap: 1.75rem;
+}
+
+.col-gab-2{
+  column-gap: .5rem;
 }
