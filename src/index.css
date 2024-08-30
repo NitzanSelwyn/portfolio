@@ -79,3 +79,19 @@ span {
 .col-gab-2{
   column-gap: .5rem;
 }
+
+.light-mode-svg .h-5 {
+  fill: black;
+}
+
+.dark-mode-svg .h-5 {
+  fill: white;
+}
+
+.light-mode-svg .h-7 {
+  fill: black;
+}
+
+.dark-mode-svg .h-7 {
+  fill: white;
+}
