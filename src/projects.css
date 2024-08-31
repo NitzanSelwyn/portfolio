@@ -12,13 +12,16 @@
     justify-content: space-between;
     width: 45%;
     margin-bottom: 20px;
-    padding: 16px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     color: black;
     transition: transform 0.3s ease;
+}
+
+.project-card > div {
+    padding: 16px;
 }
 
 .project-card:hover {
@@ -35,8 +38,9 @@
 }
 
 .project-card img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 12rem;
+    border-radius: 8px 8px 0 0;
     border-radius: 4px;
-    margin-top: 12px;
+    object-fit: cover;
 }

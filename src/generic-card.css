@@ -1,0 +1,41 @@
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease;
+    background-color: white;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.project-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: inherit;
+}

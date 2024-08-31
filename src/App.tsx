@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import Projects from './projects';
+import CardList from './generic-card';
+import { certifications } from './utils/certifications';
+import { lenTags } from './utils/lang-tags';
+import TagList from './tag-list';
 
 function App() {
 
@@ -71,6 +75,14 @@ function App() {
 
         <section>
           <Projects />
+        </section>
+
+        <section>
+          <CardList projects={certifications}/>
+        </section>
+
+        <section>
+          <TagList tags={lenTags}/>
         </section>
 
       </div>

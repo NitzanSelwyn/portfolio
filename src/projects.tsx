@@ -13,14 +13,16 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="project-card"
                 >
-                    <h3>{project.title}</h3>
-                    <p>{project.description}</p>
-                    {project.image && <img src={project.image} alt={project.title} />}
-                    <ul>
-                        {project.bullet_points.map((point, index) => (
-                            <li key={index}>{point}</li>
-                        ))}
-                    </ul>
+                    <img src={project.image} />
+                    <div>
+                        <h3>{project.title}</h3>
+                        <p>{project.description}</p>
+                        <ul>
+                            {project.bullet_points.map((point, index) => (
+                                <li key={index}>{point}</li>
+                            ))}
+                        </ul>
+                    </div>
                 </a>
             ))}
         </div>
