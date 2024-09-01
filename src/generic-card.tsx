@@ -96,6 +96,7 @@ const ProjectsSection = styled.div`
     display: flex;
     flex-direction: column;
     width: 50vw;
+    margin: 0 auto
 `;
 
 const CardList: React.FC<ProjectListProps> = ({ projects }) => (

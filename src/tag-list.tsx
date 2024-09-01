@@ -9,7 +9,8 @@ const TagsContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin: 20px 0;
+    margin: 0 auto;
+    width:50vw
 `;
 
 const Tag = styled.span`
